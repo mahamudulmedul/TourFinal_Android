@@ -4,7 +4,7 @@ package bd.org.bitm.mad.batch33.tourmate.Nearby;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Northeast {
+public class Location {
 
     @SerializedName("lat")
     @Expose
