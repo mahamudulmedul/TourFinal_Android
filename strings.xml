@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile_setting">Profile</string>
+    <string name="home_setting">Home</string>
+    <string name="reset_pass_setting">Change Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place_api_key">AIzaSyDMKsZxFkVR-8F1Wh-a0gcL2_meESoRhTE</string>
+    <string name="direction_api_key">AIzaSyBD5jtEt7iO5Jdhix91pqVibYSFBVuKUXQ</string>
+    <string name="weather_api_key">0227e6010071a6909fc84a8b6c5d2037</string>
+    <string name="no_data_found_yet">No Data Found Yet</string>
+    <string name="search">search</string>
+    <string name="sun_rise">Sun Rise</string>
+    <string name="sun_set">Sun Set</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+</resources>

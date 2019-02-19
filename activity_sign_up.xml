@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/admin"
+            android:layout_marginBottom="15dp"/>
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/signupuser"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint=" Name"
+            />
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:hint=" Em@il "
+            />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/signuplock"
+            android:ems="10"
+            android:hint=" Password"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/phoneET"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+            android:layout_height="wrap_content"
+            android:hint=" Phone Number"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/registrationBT"
+            android:layout_marginTop="15dp"
+            android:background="#1a85ba"
+            android:textColor="#fff"
+            android:onClick="SignUpUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"/>
+        <ProgressBar
+            android:id="@+id/progrssbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

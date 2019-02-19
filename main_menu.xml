@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Change \u00B0 C"
+        android:id="@+id/item_metric"/>
+    <item android:title="Change \u00B0 F"
+        android:id="@+id/item_imperial"/>
+
+</menu>

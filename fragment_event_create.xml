@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    android:background="@drawable/backgound"
+    tools:context="bd.org.bitm.mad.batch33.tourmate.fragment.Event.EventCreateFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/admin"
+            android:layout_marginBottom="15dp"/>
+        <EditText
+            android:id="@+id/eventNameET"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/events_icon"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:hint=" Event Name"
+            />
+        <EditText
+            android:id="@+id/startDateET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/startlocation"
+            android:ems="10"
+            android:hint=" Start Location"
+            android:layout_marginBottom="7dp"
+            />
+        <EditText
+            android:id="@+id/destrinationET"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/destination"
+            android:hint=" Destrination Location"
+            />
+        <EditText
+            android:id="@+id/departureET"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/depaturedate"
+            android:hint=" Destrination Location"
+            />
+
+        <EditText
+            android:id="@+id/budgetET"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/money"
+            android:layout_height="wrap_content"
+            android:hint=" Budget"
+            android:layout_marginBottom="2dp"
+            />
+        <Button
+            android:id="@+id/registrationBT"
+            android:layout_marginTop="10dp"
+            android:background="#1a85ba"
+            android:textColor="#fff"
+            android:onClick="CreateEvent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Create Event"/>
+        <ProgressBar
+            android:id="@+id/progrssbar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

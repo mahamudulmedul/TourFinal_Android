@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="5dp"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:text="Chattagong Tour"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/createdDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eventName"
+            android:layout_alignStart="@+id/eventName"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_below="@+id/eventName"
+            tools:text="Created On: 21/05/218" />
+
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eventName"
+            android:layout_alignStart="@+id/eventName"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_below="@+id/createdDate"
+            tools:text="Start On : 01/06/2018" />
+
+        <TextView
+            android:id="@+id/dayLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/createdDate"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            tools:text="10 Day Left"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
